@@ -23,7 +23,7 @@ import static org.bytedeco.opencv.global.opencv_objdetect.*;
 public class App {
     public static void main(String[] args) throws IOException, URISyntaxException, InterruptedException {
         // Load Face Detector
-        CascadeClassifier faceDetector = new CascadeClassifier ("data/faces/haarcascade_frontalface_default.xml");
+        CascadeClassifier faceDetector = new CascadeClassifier ("data/haarcascades/haarcascade_frontalface_default.xml");
 
         // Create an instance of Facemark
         FacemarkKazemi facemark = FacemarkKazemi.create();
